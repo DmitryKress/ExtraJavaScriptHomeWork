@@ -1,14 +1,10 @@
-var product = prompt("Please, type the first number");
+var FirstProduct = prompt("Please, type the first number");
 
-var product1 = prompt("Please, type the second number");
+var SecondProduct = prompt("Please, type the second number");
 
-if ((product > "50") & (product <= "99")) {
+if (FirstProduct >= "50" && FirstProduct <= "99") {
   alert("nice");
-} else {
-  alert("Can not define, please try another value");
-}
-
-if ((product1 > "50") & (product1 <= "99")) {
+} else if (SecondProduct >= "50" && SecondProduct <= "99") {
   alert("nice");
 } else {
   alert("Can not define, please try another value");
